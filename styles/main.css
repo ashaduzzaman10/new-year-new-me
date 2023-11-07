@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Work+Sans:ital,wght@1,400;1,500;1,700&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* header styes  */
+.header-title {
+  font-style: normal;
+  font-weight: 650;
+  font-size: 65px;
+  text-align: right;
+  color: #151414;
+  padding-right: 150px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.header-description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: #444343;
+  width: 494px;
+  height: 78px;
+  margin-left: 750px;
+}
+
+.primary-btn {
+  width: 160px;
+  height: 64px;
+  background: #f15b22;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 1100px;
+}
+
+.header {
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 800px;
+}
+
+/* header-done */
+/* main section start  */
+/* .my-failure start  */
+.people {
+  background: #ffffff;
+}
+
+.failure-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #151414;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.failure-description {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  padding-left: 30px;
+  margin-bottom: 9px;
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+.people-img {
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 10px;
+}
+
+.item-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-failure {
+  margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* failure section end */
+/* my-plan section start  */
+.my-plan-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.my-plan-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.plan-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  color: #151414;
+  padding-top: 15px;
+}
+
+.my-plan-section {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #737272;
+}
+
+.my-plan-description {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #737272;
+}
+.green {
+  color: green;
+}
+/* my plan section end  */
+/* mindset-section start  */
+.mindset {
+  width: 1140px;
+  height: 300px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+  margin: 60px;
+  box-sizing: border-box;
+  background-image: url("../images/watch.png");
+}
+
+.minset-container {
+  width: 1140px;
+  height: 300px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.mind-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  width: 459px;
+  height: 94px;
+  padding-left: 65px;
+  padding-top: 60px;
+}
+
+.call-btn {
+  width: 160px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #f15b22;
+  border: none;
+  border-radius: 3.5px;
+  margin-top: 75px;
+  margin-left: 60px;
+}
+
+/* mindset-section end  */
+/* main section end  */
+/* future start  */
+.future-section {
+  background-color: #ffffff;
+}
+
+.future-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #121212;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+
+.future-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #707070;
+  margin-bottom: 15px;
+}
+
+.future-box {
+  background: #fafafa;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.topic-box {
+  background: #fafafa;
+  border-radius: 5px;
+  height: 123px;
+  width: 135px;
+  text-align: center;
+  border: 2px solid gray;
+}
+
+.topic-background {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+
+input {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.line {
+  border: 2.5px solid #ff5959;
+  border-radius: 20px;
+}
+
+.click {
+  width: 160px;
+  height: 64px;
+  background: #f15b22;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* future ends  */
+/* footer start  */
+.my-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 1400px;
+  height: 800px;
+  background: #151414;
+}
+
+.footer-title {
+  width: 148px;
+  height: 53px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+
+.footer-description {
+  width: 485px;
+  height: 78px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer-mail {
+  width: 184px;
+  height: 26px;
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.icon-styles {
+  width: 175px;
+  height: 46px;
+  padding-top: 20px;
+}
+
+.sub-btn {
+  width: 123px;
+  height: 29px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.mail-center {
+  width: 325px;
+  height: 64px;
+  padding-bottom: 20px;
+  border: 10px rgb(70, 62, 61);
+  border-radius: 10px round;
+}
+
+.subs-btn {
+  width: 170.11px;
+  height: 64px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  border-style: none;
+  background-color: #ffffff;
+}
+/* footer ends  */
